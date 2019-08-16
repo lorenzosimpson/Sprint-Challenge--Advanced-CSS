@@ -49,6 +49,7 @@ Edit this document to include your answers after each question. Make sure to lea
 	Preprocessing allows us to write write css more intuitively, giving us the power of variables, mixins and nesting. The preprocessor then converts the files back into normal css so the browser can read it.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 	Mixins are my favorite because they allow for very easy style changes.
 	While they are my favorite, they also give me some trouble at times and require more practice 
 
