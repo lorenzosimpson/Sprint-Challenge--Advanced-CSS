@@ -1,1 +1,19 @@
 // Mixins Here
+.custom-btn(@font-color, @bg-color, @font-size, @padding, @border, @radius) {
+    color: @font-color;
+    background-color: @bg-color;
+    font-size: @font-size;
+    padding: @padding;
+    border: @border;
+    border-radius: @radius
+} 
+.display(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.font-styling(@size, @family) {
+    font-size: @size;
+    font-family: @family;
+}
