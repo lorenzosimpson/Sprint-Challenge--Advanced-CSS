@@ -58,7 +58,11 @@
       }
 
       .btn button{
-          .custom-btn(@wild-sand, @river-bend, 2rem, 15px 30px, 1px solid @ebony-clay, 5px)
+          .custom-btn(@wild-sand, @river-bend, 2rem, 15px 30px, 1px solid @ebony-clay, 5px);
+          &:hover {
+            background-color: @wild-sand;
+            color: @ebony-clay;
+          }
       }
     }
 
